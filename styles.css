@@ -1,0 +1,67 @@
+h1 {
+  font-family: "lato", "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: #424143;
+  text-align: center;
+}
+
+#person {
+  display: flex;
+  justify-content: space-between;
+  width: 79%;
+  flex-wrap: wrap;
+}
+
+#container {
+  justify-content: center;
+  display: flex;
+}
+
+.personBox {
+  display: flex;
+  flex-direction: column;
+}
+
+/* First and Last Name */
+.h3 {
+  font-size: 18px;
+  font-weight: bold;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid rgba(53, 226, 53, 0.48);
+  margin-top: 15px;
+}
+
+/*.h3 text {
+  border-bottom: 4px solid green;
+}*/
+
+li {
+  font-family: "lato", "Helvetica Neue", Arial, Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+  list-style: none;
+  color: #666;
+  display: flex;
+  justify-content: center;
+}
+
+li.address {
+  text-transform: capitalize;
+  line-height: 22px;
+  font-size: 10px;
+}
+
+li.email {
+  color: #ccc;
+  margin-top: 13px;
+  font-size: 10px;
+}
+
+li.ssn {
+  color: green;
+}
+
+.pic {
+  width: 200px;
+}
